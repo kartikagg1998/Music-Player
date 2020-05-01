@@ -1,0 +1,307 @@
+
+/*single playlist*/
+
+*
+{
+	color:white;
+}
+body
+{
+	
+	background-color:#081143;
+	margin-left:5%;
+}
+
+/*Navigation-menu*/
+
+
+horizontal-list
+{
+	list-style:none;
+
+}
+.horizontal-list-item
+{
+	display:inline-block;
+	font-size:1.2rem;
+	margin-right:10px;
+
+}
+li button
+{
+	width:300px;
+	text-align:left;
+	background-color:#081143;
+	margin-left:500px;
+	
+}
+
+#music-studio-img
+{
+	height:4rem;
+	width:4rem;
+	margin-top:1rem;
+
+}
+#search-icon
+{
+	margin-left:42rem;
+	background-color:#353f75;
+	border-right:1.5px solid #353f75;
+}
+#search-text
+{
+	background-color:#353f75;
+	border:2px solid #353f75;
+	width:15rem;
+	height:1.5rem;
+}
+#bell-icon
+{
+	margin-bottom:0rem;
+}
+#artist-icon
+{
+	border-radius:50%;
+	height:1.4rem;
+	width:1.4rem;
+}
+li button
+{
+	background-color:black;
+}
+
+/*Main section*/
+
+main
+{
+	width:65%;
+	display:inline-block;
+}
+
+/*About artist*/
+
+#single-playlist
+{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:black;
+	margin-left:5%;
+	height:auto;
+	margin-bottom:4%;
+	margin-top:5%;
+
+}
+.artist-image
+{
+	width:40%;
+	
+	margin:25px;
+}
+.artist-image img
+{
+	height:100%;
+	width:80%;
+}
+.artist-name 
+{
+	width:40%;
+	font-size:20px;
+	font-weight:bold;
+}
+.artist-description
+{
+	font-size:15px;
+	font-weight:400;
+	
+}
+#button-play
+{
+ background-color:red;
+ margin-top:30px;
+ padding-left:20px;
+ padding-right:20px;
+ padding-top:10px;
+ padding-bottom:10px;
+}
+
+/*audio section*/
+
+#audio
+{
+	position:fixed;
+	bottom:0rem;
+	left:0rem;
+	width:100%;
+	z-index:1;
+	background-color:#081143;
+
+}
+audio
+{
+	width:100%;
+}
+
+/*Artist Songs list*/
+
+.songs
+{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	height:auto;
+	margin-bottom:1.4rem;
+
+}
+.songs img
+{
+	width:4.5rem;
+	height:4.5rem;
+	margin-left:1.2rem;
+	margin-right:1.2rem;
+}
+.artist-songs
+{
+background-color:#161a2f;
+	border:0px solid #081143;	
+}
+#opacity
+{
+	opacity:0.7;
+}
+#left
+{
+	margin-left:30rem;
+	margin-top:2.2rem;
+}
+#right
+{
+	margin-left:47rem;
+	margin-top:-3.0rem;
+}
+#right1
+{
+	margin-top:2.2rem;
+	font-size:1.2rem;
+	margin-left:5rem;
+}
+
+/*Aside section*/
+
+aside
+{
+	display:inline-block;
+	width:25%;
+	vertical-align:top;
+	margin-top:1.2rem;
+	margin-left:1.5rem;
+}
+.aside-section-heading
+{
+	margin-top:2.5rem;
+	margin-bottom:2.5rem;
+}
+#menu-icon
+{
+	margin-left:7rem;
+	margin-top:1rem;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width:1400px)
+{
+	
+#right1
+	{
+		margin-left:3rem;
+	}
+	#search-icon
+	{
+		display:none;
+	}
+	#search-text
+	{
+		display:none;
+	}
+	#bell-icon
+	{
+		display:none;
+	}
+	#artist-icon
+	{
+		display:none;
+	}
+	.dropdown
+	{
+		left:0%;
+	}
+	#right
+	{
+		display:none;
+	}
+
+
+}
+	
+	@media screen and (max-width:1100px)
+{
+	.latest-songs-display
+	{
+		width:100%;
+	}
+
+	aside
+	{
+		display:block;
+		margin-top:30px;
+		width:100%;
+	}
+
+	main
+	{
+		width:90%;
+		height:auto;
+	}
+	#playlist
+	{
+		display:block;
+		margin-left:15px;
+		text-align:left;
+		width:100%;
+		margin-right:0px;
+	}
+	#left
+{
+	margin-left:7rem;
+	margin-top:1.2rem;
+}
+#right
+{
+	margin-left:24rem;
+	margin-top:-4.0rem;
+}
+	#right1
+	{
+		margin-left:3rem;
+	}
+	#search-icon
+	{
+		display:none;
+	}
+	#search-text
+	{
+		display:none;
+	}
+	#artist-icon
+	{
+		display:none;
+	}
+}
+
+
+
+
+	
+

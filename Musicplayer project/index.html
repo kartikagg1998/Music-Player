@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+
+<!-- Navigation-menu-->
+
+			<ul class="horizontal-list">
+
+				<li class="horizontal-list-item"><img src="C:/Users/Shubham/Documents/major-project/images/music studio.jpg"id="music-studio-img">Music Studio
+				</li>
+				<li class="horizontal-list-item">Favourites
+				</li>
+				
+				<li class="horizontal-list-item">
+		            <form id="search-icon">
+           			<input type="text" id="search-text" placeholder="Search...">
+           			
+           			<i class="fa fa-search"style="color:white;font-size:20px;"></i>
+
+           		</form>
+		        </li>
+				<li id="bell-icon"class="horizontal-list-item"><i class="fa fa-bell" style="color:white;font-size:20px;"></i>
+				</li>
+				<li class="horizontal-list-item"><img src="C:/Users/Shubham/Documents/major-project/images/badshah.jpg"id="artist-icon"></li>
+			</ul>
+<main>			
+				
+       <div id="main-body">
+
+  <!-- Carousel-header-image      -->
+
+ <div class="slide-container">
+     <span id="slider-image-1"></span>
+     <span id="slider-image-2"></span>
+     
+     <div class="image-container">
+          <img src="C:/Users/Shubham/Documents/major-project/images/music1.jpg" class="slider-image">
+          <img src="C:/Users/Shubham/Documents/major-project/images/feel good beats.jpg"class="slider-image">
+      </div>
+      <div class="button-container">
+          <a href="#slider-image-1"class="slider-button"></a>
+          <a href="#slider-image-2"class="slider-button"></a>
+     </div>
+</div>
+
+<!-- Bottom Music Player -->
+
+<div id="audio">
+<audio controls>
+  <source src="C:/Users/Shubham/Downloads/02 - Haan Main Galat - Love Aaj Kal (2020).ogg" type="audio/ogg">
+  <source src="C:/Users/Shubham/Downloads/02 - Haan Main Galat - Love Aaj Kal (2020).mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+	</header>
+
+<main>
+
+	<!-- Latest Release songs -->
+
+<section id="Latest Release">
+	<h1 class="section-heading">
+		Latest Release
+	</h1>
+		<div class="latest-songs-display">
+			<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/dus bahane.jpg">
+			<div class="song-name">Dus Bahane-2.0<br>Jan,2020
+			</div>
+
+			
+		</div>
+		<div class="latest-songs">
+			<img src="C:/Users/Shubham/Documents/major-project/images/lagdi lahore.jpg">
+			<div class="song-name">Lagdi lahore di<br>Jan,2020
+			
+</div>
+		</div>
+		<div class="latest-songs">
+			<img src="C:/Users/Shubham/Documents/major-project/images/mehrama.jpg">
+			<div class="song-name">Mehrama<br>Jan,2020
+			
+		</div>
+</div>
+<div class="latest-songs">
+			<img src="C:/Users/Shubham/Documents/major-project/images/ooh la la.jpg">
+			<div class="song-name">Ooh la la<br>Jan,2020
+			</div>
+		</div>
+		<div class="latest-songs">
+			<img src="C:/Users/Shubham/Documents/major-project/images/jannat.jpg">
+			<div class="song-name">Jannat<br>Jan,2020
+</div>
+ </div>
+</div>
+</section>
+
+<!-- Popular Artists section -->
+
+<section id="Popular Artists">
+
+	<h1 class="section-heading">
+		Popular Artists
+	</h1>
+		<div class="popular-artists-display">
+			<div class=popular-artists-profile>
+			<img src="C:/Users/Shubham/Documents/major-project/images/atif aslam.jpg">
+			<div class="artist-name">Atif Aslam</div>
+		</div>
+		<div class=popular-artists-profile>
+			<img src="C:/Users/Shubham/Documents/major-project/images/arijitsingh.jpg">
+			<div class="artist-name" ><a href="file:///C:/Users/Shubham/Documents/major-project/Musicplayer%20project/single-playlist-screen.html"><h4 style="color:red;margin-top:0px;">Arijit Singh</h4></a></div>
+		</div>
+		<div class=popular-artists-profile>
+			<img src="C:/Users/Shubham/Documents/major-project/images/neha kakkar.jpg">
+			<div class="artist-name">Neha kakkar</div>
+		</div>
+		<div class=popular-artists-profile>
+			<img src="C:/Users/Shubham/Documents/major-project/images/sonu nigam.jpg">
+			<div class="artist-name">Sonu Nigam</div>
+		</div>
+		<div class=popular-artists-profile>
+			<img src="C:/Users/Shubham/Documents/major-project/images/badshah.jpg">
+			<div class="artist-name">Badshah</div>
+		</div>
+	</div>
+	</section>
+
+<!-- Music Stations -->
+
+<section id="music-stations">
+
+		<div class="music-stations-display">
+			<div class=music-station-categories>
+			<img src="C:/Users/Shubham/Documents/major-project/images/music.jpg" style="border-width:0%">
+			
+		</div>
+			<div class="music-station-categories">
+			<img src="C:/Users/Shubham/Documents/major-project/images/love.jpg">
+			
+		</div>
+		<div class="music-station-categories">
+			<img src="C:/Users/Shubham/Documents/major-project/images/retro.jpg">
+			
+		</div>
+		<div class="music-station-categories">
+			<img src="C:/Users/Shubham/Documents/major-project/images/workout.jpg">
+			
+		</div>
+		<div class="music-station-categories">
+			<img src="C:/Users/Shubham/Documents/major-project/images/pop.jpg">
+			
+					</div>
+	
+</section>
+
+<!-- Theme songs -->
+
+<section id="Theme songs">
+         <div class="theme-songs-display">
+			<div class=theme>
+			<img src="C:/Users/Shubham/Documents/major-project/images/party.jpg">
+			<div class="centered">Party
+			</div>
+		</div>
+		<div class=theme>
+			<img src="C:/Users/Shubham/Documents/major-project/images/electronic.jpg">
+			<div class="centered">Electronic</div>
+		</div>
+		<div class=theme>
+			<img src="C:/Users/Shubham/Documents/major-project/images/roadtrip.jpg">
+			<div class="centered">Roadtrip</div>
+		</div>
+		</div>
+</section>
+
+<!-- Popular Hindi Songs -->
+
+<section id="Popular Hindi">
+	
+	<h1 class="section-heading">
+		Latest Hindi
+	</h1>
+		<div class="latest-songs-display">
+			<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/dilbar.jpg">
+			<div class="song-name">Dilbar<br>Jan,2020
+  		</div>
+</div>
+		<div class="latest-songs">
+			<img src="C:/Users/Shubham/Documents/major-project/images/vaaste.jpg">
+			<div class="song-name">Vaaste<br>Jan,2020
+		</div>
+	</div>
+		<div class="latest-songs">
+			<img src="C:/Users/Shubham/Documents/major-project/images/tera ghata.jpg">
+			<div class="song-name">Tera Ghata<br>Jan,2020
+			</div>
+		</div>
+		<div class="latest-songs">
+			<img src="C:/Users/Shubham/Documents/major-project/images/ooh la la.jpg">
+			<div class="song-name">Ooh La La<br>Jan,2020
+			</div>
+		</div>
+		<div class="latest-songs">
+			<img src="C:/Users/Shubham/Documents/major-project/images/coca-cola.jpg">
+			<div class="song-name">coca-cola<br>Jan,2020
+			<div class="middle" id="mid">
+			</div>
+</div>
+</div>
+</section>
+
+<!-- Popular Punjabi Songs -->
+<section id="Popular Punjabi">
+
+	<h1 class="section-heading">
+		Popular Punjabi
+	</h1>
+		<div class="latest-songs-display">
+			<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/patola.jpg">
+			<div class="song-name">Patola<br>Jan,2020
+		</div>
+	</div>
+
+		<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/sakhiyaan.jpg">
+			<div class="song-name">Mehrama<br>Jan,2020
+		</div>
+	</div>
+		<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/3 peg.jpg">
+			<div class="song-name">Mehrama<br>Jan,2020
+		</div>
+	</div>
+		<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/lehanga.jpg">
+			<div class="song-name">Mehrama<br>Jan,2020
+		</div>
+	</div>
+
+			<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/Channa Ve.jpg">
+			<div class="song-name">Channa Ve<br>Jan,2020
+		</div>
+	</div>
+</div>
+</section>
+
+
+<section id="Popular English">
+	<h1 class="section-heading">
+		Popular English
+	</h1>
+		<div class="latest-songs-display">
+			<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/despacito.jpg">
+			<div class="song-name">Mehrama<br>Jan,2020
+			</div>
+		</div>
+		<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/senorita.jpg">
+			<div class="song-name">Mehrama<br>Jan,2020
+
+		</div>
+	</div>
+		<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/wolves.jpg">
+			<div class="song-name">Mehrama<br>Jan,2020
+		</div>
+		</div>
+		<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/girls like you.jpg">
+			<div class="song-name">Mehrama<br>Jan,2020
+			</div>
+		</div>
+		<div class=latest-songs>
+			<img src="C:/Users/Shubham/Documents/major-project/images/get ready.jpg">
+			<div class="song-name">Mehrama<br>Jan,2020
+			</div>
+		</div>
+
+
+	
+</section>
+
+</main>
+
+
+<aside>
+<h2 id="playlist">My Playlist</h2>
+<div class="dropdown">
+  <button class="dropbtn">Queue &nbsp;<i class="fa fa-caret-down" style="color:white;font-size:20px"></i></button>
+  <div class="dropdown-content">
+    <a href="#">Playlists</a>
+    <a href="#">Favourite Songs</a>
+  </div>
+</div>
+
+<div>
+		<div class="songs">
+			<p>01</p>
+		<img src="C:/Users/Shubham/Documents/major-project/images/coca-cola.jpg">
+		<div>
+		<b><p>Coca-Cola</p></b>
+		<p id="opacity">Else</p>
+	</div>
+	<i id="right1"class="fa fa-heart"style="color:white;font-size:20px"></i>
+	</div>
+
+	<div class="songs">
+			<p>02</p>
+		<img src="C:/Users/Shubham/Documents/major-project/images/channa ve.jpg">
+		<div>
+		<b><p>Channa Ve</p></b>
+		<p id="opacity">Flume</p>
+	</div>
+	<i id="right1"class="fa fa-heart"style="color:white;font-size:20px"></i>
+	</div>
+	<div class="songs">
+			<p>03</p>
+		<img src="C:/Users/Shubham/Documents/major-project/images/sakhiyaan.jpg">
+		<div>
+		<b><p>Sakhiyaan</p></b>
+		<p id="opacity">Rosie</p>
+	</div>
+	<i id="right1"class="fa fa-heart"style="color:white;font-size:20px"></i>
+	</div>
+		<div class="songs">
+			<p>04</p>
+		<img src="C:/Users/Shubham/Documents/major-project/images/despacito.jpg" class="similar-artists-img">
+		<div>
+		<b><p>Despaciito</p></b>
+		<p id="opacity">Else</p>
+	</div>
+	<i id="right1"class="fa fa-heart"style="color:white;font-size:20px"></i>
+	</div>
+
+	<div class="songs">
+			<p>05</p>
+		<img src="C:/Users/Shubham/Documents/major-project/images/get ready.jpg">
+		<div>
+		<b><p>Get Ready</p></b>
+		<p id="opacity">Flume</p>
+	</div>
+	<i id="right1"class="fa fa-heart"style="color:white;font-size:20px"></i>
+	</div>
+	<div class="songs">
+			<p>06</p>
+		<img src="C:/Users/Shubham/Documents/major-project/images/coca-cola.jpg">
+		<div>
+		<b><p>Coca-Cola</p></b>
+		<p id="opacity">Rosie</p>
+	</div>
+	<i id="right1"class="fa fa-heart"style="color:white;font-size:20px"></i>
+	</div>
+		<div class="songs">
+			<p>07</p>
+		<img src="C:/Users/Shubham/Documents/major-project/images/channa ve.jpg">
+		<div>
+		<b><p>Channa Ve</p></b>
+		<p id="opacity">Else</p>
+	</div>
+	<i id="right1"class="fa fa-heart"style="color:white;font-size:20px"></i>
+	</div>
+
+	<div class="songs">
+			<p>08</p>
+		<img src="C:/Users/Shubham/Documents/major-project/images/sakhiyaan.jpg">
+		<div>
+		<b><p>Sakhiyaan</p></b>
+		<p id="opacity">Flume</p>
+	</div>
+	<i id="right1"class="fa fa-heart"style="color:white;font-size:20px" ></i>
+	</div>
+	<div class="songs">
+			<p>09</p>
+		<img src="C:/Users/Shubham/Documents/major-project/images/despacito.jpg">
+		<div>
+		<b><p>Despaciito</p></b>
+		<p id="opacity">Else</p>
+	</div>
+	<i id="right1"class="fa fa-heart"style="color:white;font-size:20px"></i>
+	</div>
+	<div class="songs">
+			<p>10</p>
+		<img src="C:/Users/Shubham/Documents/major-project/images/get ready.jpg">
+		<div>
+		<b><p>Get Ready</p></b>
+		<p id="opacity">Rosie</p>
+	</div>
+	<i id="right1"class="fa fa-heart"style="color:white;font-size:20px"></i>
+	</div>
+</div>
+</aside>
+</body>
+</html>
